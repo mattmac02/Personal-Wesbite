@@ -1,0 +1,164 @@
+<html>
+<meta name="viewport" content="width=device-width">
+<link href="style.css" type="text/css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<body>
+    <div class="navigationBar3"> 
+        <h1>
+            <i class="material-icons" style="font-size:36px"> <!--Fingerprint icon-->
+                fingerprint
+            </i>
+            <!--Social media icons-->
+            <div class="allIcons3">
+                <a href="https://www.facebook.com/profile.php?id=100009680941236" class="fa fa-facebook"></a>
+                <a href="https://www.instagram.com/matthew_maceachern/?hl=en" class="fa fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/matthew-maceachern-a645b0213/" class="fa fa-linkedin"></a>
+                <a href="mailto:19mam37@queensu.ca" class="fa fa-envelope"></a>
+            </div>
+        </h1>
+    </div>
+    <div class="picture"></div> <!--First background image with parallax scrolling-->
+    <div class="nameAndPic2">
+        <p>Matthew MacEachern</p> <!--Name-->
+        <h3>COMPUTER ENGINEER</h3> <!--Profession/Degreee-->
+        <img src="Headshot copy 2.jpg"> <!--Headshot-->
+    </div>
+    <div id="slideshow-example" data-component="slideshow">
+        <div role="list">
+            <!--Slide 1:About Me-->
+            <div class="slide">
+                <h1>ABOUT ME<button><a href="Resume Good copy.jpg" download="My Resume" class="resumeDownload6">My Resume</button></a></h1>
+                <p>
+                    Hello bruvYou.com allows you to easily and effectively<br>
+                    build a website from only your resume! By retreieving <br>
+                    the information inputted by YOU it creates the personal <br>
+                    portfolio of your dreams, allowing you to take on the<br>
+                    professionalworld. If you're looking for a way to standout,<br>
+                    You.com has your back.
+                </p>
+                <p>
+                    Hello bruvYou.com allows you to easily and effectively<br>
+                    build a website from only your resume! By retreieving <br>
+                    the information inputted by YOU it creates the personal <br>
+                    portfolio of your dreams, allowing you to take on the<br>
+                    professionalworld. If you're looking for a way to standout,<br>
+                    You.com has your back.
+                </p>
+            </div>
+            <!--Slide 2:Education-->
+            <div class="slide">
+                <h1>EDUCATION</h1>
+                <p>
+                    Hello bruvYou.com allows you to easily and effectively<br>
+                    build a website from only your resume! By retreieving <br>
+                    the information inputted by YOU it creates the personal <br>
+                    portfolio of your dreams, allowing you to take on the<br>
+                    professionalworld. If you're looking for a way to standout,<br>
+                    You.com has your back.
+                </p>
+                <p>
+                    Hello bruvYou.com allows you to easily and effectively<br>
+                    build a website from only your resume! By retreieving <br>
+                    the information inputted by YOU it creates the personal <br>
+                    portfolio of your dreams, allowing you to take on the<br>
+                    professionalworld. If you're looking for a way to standout,<br>
+                    You.com has your back.
+                </p>
+            </div>
+            <!--Slide 2:Work-->
+            <div class="slide">
+                <h1>PROFESSIONAL EXPERIENCE</h1>
+                <p>
+                    Hello bruvYou.com allows you to easily and effectively<br>
+                    build a website from only your resume! By retreieving <br>
+                    the information inputted by YOU it creates the personal <br>
+                    portfolio of your dreams, allowing you to take on the<br>
+                    professionalworld. If you're looking for a way to standout,<br>
+                    You.com has your back.
+                </p>
+                <p>
+                    Hello bruvYou.com allows you to easily and effectively<br>
+                    build a website from only your resume! By retreieving <br>
+                    the information inputted by YOU it creates the personal <br>
+                    portfolio of your dreams, allowing you to take on the<br>
+                    professionalworld. If you're looking for a way to standout,<br>
+                    You.com has your back.
+                </p>
+            </div>
+            <!--Slide 2:Extracurricular-->
+            <div class="slide">
+                <h1>EXTRACURRICULAR AND VOLUNTEER EXPERIENCE</h1>
+                <p>
+                    Hello bruvYou.com allows you to easily and effectively<br>
+                    build a website from only your resume! By retreieving <br>
+                    the information inputted by YOU it creates the personal <br>
+                    portfolio of your dreams, allowing you to take on the<br>
+                    professionalworld. If you're looking for a way to standout,<br>
+                    You.com has your back.
+                </p>
+                <p>
+                    Hello bruvYou.com allows you to easily and effectively<br>
+                    build a website from only your resume! By retreieving <br>
+                    the information inputted by YOU it creates the personal <br>
+                    portfolio of your dreams, allowing you to take on the<br>
+                    professionalworld. If you're looking for a way to standout,<br>
+                    You.com has your back.
+                </p>
+            </div>
+        </div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(+1)">&#10095;</a>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("slide");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex - 1].style.display = "block";
+        }
+    </script>
+
+    <div class="picture2"></div> <!--Second background image with parallax scrolling-->
+    <!--Contact form-->
+    <div class="container">
+        <h1>Get In Touch</h1>
+        <form action="mailto:mattmac02@hotmail.ca" method="post" enctype="text/plain">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+            <label for="email">Email Address</label>
+            <input type="text" name="mail" placeholder="Your email address...">
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something..." style="height:6.25rem"></textarea>
+
+            <input type="submit" class="submitButton" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>
