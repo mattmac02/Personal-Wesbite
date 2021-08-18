@@ -3,7 +3,6 @@
 <link href="style.css" type="text/css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600;700&display=swap" rel="stylesheet">
-<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -15,7 +14,7 @@
             </i>
             <!--Top bar name-->
             Matthew MacEachern
-            <button><a href="Matthew_MacEachern_Resume_July_2021_V1 copy.pdf" download="My Resume" class="resumeDownload"> <!--Resume download button-->
+            <button><a href="Resume Good copy.jpg" download="My Resume" class="resumeDownload"> <!--Resume download button-->
                     My Resume
             </button>
             </a>
@@ -26,12 +25,17 @@
         <div class="background">
             <div class="description">
                 <p>
-                    Hey there, I'm Matthew MacEachern, a computer engineer, with a specialization in software from Guelph, Ontario, Canada. I am a software developer with a focus on front-end development.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dolor arcu,
+                    viverra eu dapibus non, suscipit quis elit. Vivamus euismod dolor non magna porta, ac congue orci
+                    tristique. Praesent et erat porttitor, pharetra odio venenatis, varius risus. Praesent luctus, magna
+                    finibus tincidunt tincidunt, lectus leo dapibus augue, id tincidunt quam ipsum sed erat. Proin
+                    feugiat congue ante, eu fermentum eros pellentesque id. Vivamus et interdum arcu. Nam facilisis
+                    accumsan sem eu commodo. Aliquam id semper tellus.
                 </p>
             </div>
         </div>
         <div class="bioBox">
-            <img src="Headshot copy 2.jpg"> <!--Headshot-->
+            <img src="Headshot copy.jpg"> <!--Headshot-->
             <h2>
                 Matthew MacEachern
             </h2>
@@ -140,26 +144,21 @@
     </div>
     <!--Contact form-->
     <div class="container">
-        <form name="Contact Me" method="POST" data-netlify="true">
-            <label for="fname">
-                First Name
-            </label>
-            <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+        <form action="mailto:mattmac02@hotmail.ca" method="post" enctype="text/plain">
+            <label for="fname" class="tlabel1">
+                Full Name
+            </label><br>
+            <input type="text" class="fname" name="firstname" placeholder="Your first name..."><br>
 
-            <label for="lname">
-                Last Name
-            </label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
-
-            <label for="email">
+            <label for="email" class="tlabel2">
                 Email Address
-            </label>
-            <input type="text" name="mail" placeholder="Your email address...">
+            </label><br>
+            <input type="text" class="fname" name="mail" placeholder="Your email address..."><br>
 
-            <label for="subject">
+            <label for="subject" class="tlabel3">
                 Subject
-            </label>
-            <textarea id="subject" name="subject" placeholder="Write something..." style="height:6.25rem;"></textarea>
+            </label><br>
+            <textarea id="subject" name="subject" placeholder="Write something..." style="height:6.25rem;"></textarea><br>
 
             <input type="submit" class="submitButton" value="Submit">
         </form>
