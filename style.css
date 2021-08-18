@@ -128,151 +128,132 @@
     }
 }
 
-.schoolSection {
-    margin-top: 8rem;
-}
-
-.logo1 .material-icons {
-    font-size: 21.875rem;
-    margin-left: 10.5rem;
-    color: #13262F;
-}
-
-.schoolSection .schoolText h3 {
-    margin-left: 56rem;
-    margin-top: -20rem;
+.edTitle {
     font-family: 'Raleway', sans-serif;
-    font-weight: 650;
+    font-weight:900;
+    margin-bottom:1rem;
+    margin-top:4rem;
+    text-align:center;
+}
+
+.edTitle .material-icons {
+    font-size:3rem;
+    color: #13262F;
 }
 
 .schoolSection .schoolText ul {
-    margin-left: 38rem;
-    margin-top: -4rem;
-    height: 18rem;
-    padding-top: 4rem;
+    margin-left: 5rem;
+    height: 15rem;
+    padding-top: 3rem;
     padding-bottom: 4rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    width: 37rem;
+    width: 80%;
     background-color: #f0f2f2;
-    word-spacing: 0.438rem;
+    word-spacing: 0.1rem;
     line-height: 1.875rem;
     font-family: 'Raleway', sans-serif;
     font-size: 0.938rem;
-    font-weight: 370;
+    font-weight: 470;
 }
-
-.workSection {
-    margin-top: 8rem;
-}
-
-.logo2 .material-icons {
-    font-size: 21.875rem;
-    margin-left: 10.5rem;
-    color: #13262F;
-}
-
-.workSection .workText h3 {
-    margin-left: 53rem;
-    margin-top: -20rem;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 650;
-}
-
-.workSection .workText ul {
-    margin-left: 38rem;
-    margin-top: -4rem;
-    height: 33rem;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    width: 37rem;
-    background-color: #f0f2f2;
-    word-spacing: 0.438rem;
-    line-height: 1.875rem;
-    font-family: 'Raleway', sans-serif;
-    font-size: 0.938rem;
-    font-weight: 370;
-}
-
-.curricSection {
-    margin-top: 8rem;
-}
-
-.curricSection .curricText h3 {
-    margin-left: 48.5rem;
-    margin-top: -20rem;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 650;
-}
-
-.curricSection .curricText ul {
-    margin-left: 38rem;
-    margin-top: -4rem;
-    height: 38rem;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    width: 37rem;
-    background-color: #f0f2f2;
-    word-spacing: 0.438rem;
-    line-height: 1.875rem;
-    font-family: 'Raleway', sans-serif;
-    font-size: 0.938rem;
-    font-weight: 370;
-}
-
-.logo3 .fa-group {
-    font-size: 17.875rem;
-    margin-left: 11.5rem;
-    color: #13262F;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
 
 .addSection {
     margin-top: 6rem;
 }
 
-.addSection .addText h3 {
-    margin-left: 48.5rem;
-    margin-top: -20rem;
+.addTitle {
     font-family: 'Raleway', sans-serif;
-    font-weight: 650;
+    font-weight:900;
+    margin-bottom:1rem;
+    margin-top:4rem;
+    text-align:center;
+}
+
+.addTitle .fa-address-book {
+    font-size:3rem;
+    color: #13262F;
 }
 
 .addSection .addText ul {
-    margin-left: 38rem;
-    margin-top: -4rem;
+    margin-left: 5rem;
     height: 6rem;
-    padding-top: 4rem;
+    margin-top:-5rem;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 80%;
+    background-color: #f0f2f2;
+    word-spacing: 0.1rem;
+    line-height: 1.875rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.938rem;
+    font-weight: 470;
+}
+
+.workTitle {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom:1rem;
+    margin-top:4rem;
+    font-weight:900;
+    text-align:center;
+}
+
+.workTitle .material-icons {
+    font-size: 3rem;
+    color: #13262F;
+}
+
+.workSection .workText ul {
+    margin-left: 5rem;
+    height: 22rem;
+    padding-top: 3rem;
     padding-bottom: 4rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    width: 37rem;
+    width: 80%;
+    background-color: #f0f2f2;
+    word-spacing: 0.1rem;
+    line-height: 1.875rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.938rem;
+    font-weight: 470;
+}
+
+.extraTitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight:900;
+    margin-top:4rem;
+    margin-bottom:1rem;
+    text-align:center;
+}
+
+.extraTitle .fa-group {
+    font-size: 3rem;
+    color: #13262F;
+}
+
+.curricSection .curricText ul {
+    margin-left: 5rem;
+    height: 28rem;
+    padding-top: 3em;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 80%;
     background-color: #f0f2f2;
     word-spacing: 0.438rem;
     line-height: 1.875rem;
     font-family: 'Raleway', sans-serif;
     font-size: 0.938rem;
-    font-weight: 370;
-}
-
-.logo9 .fa-address-book {
-    font-size: 17.875rem;
-    margin-left: 11.5rem;
-    color: #13262F;
-    margin-bottom: 2rem;
+    font-weight: 470;
 }
 
 .bottomHeader {
     text-align: center;
-    margin-top:7rem;
     font-family: 'Raleway', sans-serif;
     font-size: 1.5rem;
+    margin: 0;
+    margin-top:4rem;
 }
 
 input[type=text], .container textarea {
