@@ -1,4 +1,3 @@
-
 .header {
     font-family: 'Raleway', sans-serif;
     font-size: 1.25rem;
@@ -88,7 +87,7 @@
     text-align: center;
     margin-top: 2.125rem;
     margin-bottom: 3.875rem;
-    text-transform: capitalize;
+    text-transform: uppercase;
     letter-spacing: 0.438rem;
 }
 
@@ -256,8 +255,27 @@
     margin-top:4rem;
 }
 
+.container .tlabel1 {
+    margin-left:46.8%;
+}
+
+.container .tlabel2 {
+    margin-left:46%;
+}
+
+.container .tlabel3 {
+    margin-left:47.5%;
+}
+
+
+input[type=text], .container .fname {
+    width:45%;
+    margin-left:28%;
+}
+
 input[type=text], .container textarea {
-    width: 100%;
+    width: 45%;
+    margin-left:28%;
     font-family: 'Raleway', sans-serif;
     padding: 0.75rem;
     border: 0.063rem solid #ccc;
@@ -274,6 +292,7 @@ input[type=submit], .container .submitButton {
     font-family: 'Raleway', sans-serif;
     padding: .75rem 1.25rem;
     border: none;
+    margin-left:45.5%;
     border-radius: .25rem;
     cursor: pointer;
 }
@@ -323,28 +342,4 @@ input[type=submit], .container2 .submitButton5:hover {
     text-align: center;
     border-radius: .313rem;
     padding: 1.25rem;
-}
-
-a:link {
-    cursor: pointer;
-    color: black;
-    text-decoration: none;
-}
-
-a:visited {
-    cursor: pointer;
-    color: black;
-    text-decoration: none;
-}
-
-a:hover {
-    cursor: pointer;
-    color: black;
-    text-decoration: none;
-}
-
-a:active {
-    cursor: pointer;
-    color: black;
-    text-decoration: none;
 }
